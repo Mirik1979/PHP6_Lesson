@@ -1,0 +1,12 @@
+<table>
+	<tr>
+		<td> ID Заказа </td> 
+		<td> Дата заказа </td> 
+	</tr>
+	{% for item in content_data %}    
+	<tr>
+		<td> {{ item.orderid }} </td> 
+		<td> {{ item.orderdata }} </td> 
+	</tr>
+	{% endfor %} 
+<table>
